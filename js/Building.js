@@ -29,7 +29,7 @@ class Building extends Sprite{
 
         ctx.beginPath()
         ctx.arc(this.center.x, this.center.y, this.radius, 0, Math.PI * 2)
-        ctx.fillStyle = 'rgba(0, 0, 255, 0.1)'
+        ctx.fillStyle = 'rgba(0, 0, 255, 0)'
         ctx.fill()
     }
 
